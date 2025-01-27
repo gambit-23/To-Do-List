@@ -1,0 +1,58 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: antiquewhite;
+}
+
+h1{
+  text-align: center;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container > input{
+  width: 350px;
+  height: 25px;
+  font-size: 1.25rem;
+}
+
+.input-container > button{
+  width: 45px;
+  height: 45px;
+  border-radius: 25px ;
+  font: 1.5rem;
+  background-color: rgba(231, 196, 17, 0.708);
+  margin-top: 15px;
+}
+
+.container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.todo{
+  width: 615px;
+  font-size: 1.35rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background-color: aquamarine;
+  padding: 0 9px;
+}
+
+.actions > button {
+  background-color: lightcoral;
+  color: black;
+  height: 37px;
+  width: 78px;
+  border-radius: 12px;
+  font-size: 1.14rem;
+  margin-left: 9px;
+}
